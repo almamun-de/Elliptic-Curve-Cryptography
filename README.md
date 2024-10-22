@@ -5,7 +5,12 @@ This project explores the basic properties of elliptic curves, especially in the
 
 ## Files
 - `elliptic_curve.py`: Python script implementing basic elliptic curve operations over a finite field.
-*: Differences between curves in finite (discrete) fields and continuous fields.
+
+## Visualization with JCrypTool
+JCrypTool can be used to visualize elliptic curves over both the real numbers and finite fields. This helps in understanding:
+- **Point Addition**: How points on a curve can be added geometrically.
+- **Point Doubling**: The process of doubling a point on the curve.
+- **Finite vs. Continuous Fields**: Differences between curves in finite (discrete) fields and continuous fields.
 
 ### Key Concepts
 - **Point Addition**: The sum of two points on an elliptic curve.
