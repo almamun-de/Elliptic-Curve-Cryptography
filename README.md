@@ -26,8 +26,4 @@ The script can be run directly from the command line. It demonstrates:
 ```bash
 python elliptic_curve.py
 
-Example Output
-Is P on the curve? True
-Is Q on the curve? True
-P + Q = (80, 10)
-2P = (69, 24)
+
