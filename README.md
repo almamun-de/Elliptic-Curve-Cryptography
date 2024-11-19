@@ -23,11 +23,3 @@ The script can be run directly from the command line. It demonstrates:
 - Checking if points lie on the curve.
 - Performing point addition and doubling.
 
-```bash
-python elliptic_curve.py
-
-Example Output
-Is P on the curve? True
-Is Q on the curve? True
-P + Q = (80, 10)
-2P = (69, 24)
