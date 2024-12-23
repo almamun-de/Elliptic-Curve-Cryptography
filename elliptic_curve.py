@@ -30,17 +30,3 @@ class EllipticCurve:
         y3 = (m * (x1 - x3) - y1) % self.p
         return (x3, y3)
 
-if __name__ == "__main__":
-    curve = EllipticCurve(a=2, b=3, p=97)
-    
-    P = (3, 6)
-    Q = (10, 7)
-    
-    print(f"Is P on the curve? {curve.is_on_curve(P[0], P[1])}")
-    print(f"Is Q on the curve? {curve.is_on_curve(Q[0], Q[1])}")
-    
-    R = curve.point_addition(P, Q)
-    print(f"P + Q = {R}")
-    
-    S = curve.point_doubling(P)
-    print(f"2P = {S}")
